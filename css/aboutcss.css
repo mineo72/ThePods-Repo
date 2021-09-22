@@ -46,10 +46,19 @@ a.nav:hover{
   font-family: atkinson hyperlegible;
   text-decoration: none;
 }
-  h1 {
-      text-align: center;
-      font-family: atkinson hyperlegible;
-  }
+h1 {
+    text-align: center;
+    font-family: atkinson hyperlegible;
+}
+p{
+  margin: auto;
+  font-size: 11pt;
+  color:rgb(255, 255, 255);
+  font-family: atkinson hyperlegible;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+}
 
 
 
@@ -92,15 +101,7 @@ a {text-align: center;
   width: 700px;
   background: rgba(255, 255, 255, 0.5);
 }
-#p_content1{
-  margin: auto;
-  font-size: 11pt;
-  color:rgb(255, 255, 255);
-  font-family: atkinson hyperlegible;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-}
+
 ul.ul_content1{
   margin: auto;
   font-size: 12pt;
