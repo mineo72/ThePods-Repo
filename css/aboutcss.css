@@ -26,22 +26,25 @@ a.nav{
   color:rgb(255, 255, 255);
   font-family: atkinson hyperlegible;
   text-decoration: none;
+  padding: 10px;
+  margin: auto;
+  float: left;
+  display: block;
+  text-align: center;
+
 }
 a.nav:hover{
   font-size:15px;
   color:rgb(255, 0, 0);
   font-family: atkinson hyperlegible;
   text-decoration: none;
+  background: #ddd;
 }
 #active{
   font-size:15px;
   color:rgb(255, 0, 0);
   font-family: atkinson hyperlegible;
   text-decoration: none;
-}
-tr.main{
-  background-color: rgba(194, 194, 194, 0.5);
-  color: white;
 }
   h1 {
       text-align: center;
