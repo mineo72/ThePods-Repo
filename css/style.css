@@ -2,3 +2,7 @@ body{
     font-family: atkinson hyperlegible;
     background-color: #999;
 }
+#product{
+    background-color: rgb(237, 40, 45);
+    width: 50%;
+}
