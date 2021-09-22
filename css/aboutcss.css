@@ -1,5 +1,6 @@
 body{
     background-color: #999;
+    margin:0;
 }
 .maintitle{
     color: black;
@@ -12,6 +13,13 @@ body{
     font-size: 10pt;
     font-family: atkinson hyperlegible;
 
+}
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 a.nav{
   font-size:15px;
@@ -83,13 +91,12 @@ a {text-align: center;
 }
 #p_content1{
   margin: auto;
-  font-size: 12pt;
+  font-size: 11pt;
   color:rgb(255, 255, 255);
   font-family: atkinson hyperlegible;
   padding: 10px 10px;
   text-align: center;
   text-decoration: none;
-  font-family: atkinson hyperlegible;
 }
 ul.ul_content1{
   margin: auto;
@@ -149,14 +156,14 @@ a.projectnav:hover{
   text-decoration: none;
 }
 a.link{
-  font-size:15px;
+  font-size:11px;
   color:rgb(197, 197, 197);
   font-family: atkinson hyperlegible;
   text-decoration: none;
   text-align: center;
 }
 a.link:hover{
-  font-size:15px;
+  font-size:11px;
   color:paleturquoise;
   font-family: atkinson hyperlegible;
   text-decoration: none;
