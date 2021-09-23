@@ -1,4 +1,4 @@
-let submitButton = document.querySelector('#bttn');
+let submitButton = document.querySelector('#button');
 function clickListener(event){
     document.getElementById('error').innerHTML = '';
     document.getElementById('success').innerHTML = ''
