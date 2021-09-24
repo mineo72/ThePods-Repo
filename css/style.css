@@ -2,3 +2,15 @@ body{
     font-family: atkinson hyperlegible;
     background-color: #999;
 }
+#paragraph{
+    text-align: left;
+    font-size: 24pt;
+}
+#paragraph2{
+    text-align: center;
+    font-size: 24pt;
+}
+#paragraph3{
+    text-align: right;
+    font-size: 24pt;
+}
