@@ -2,4 +2,4 @@
 
 Product Owner: Carter
 ScrumMaster: Morgan
-Developer:Micah
+Developer: Micah
