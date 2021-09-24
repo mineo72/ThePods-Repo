@@ -1,6 +1,7 @@
 body{
     font-family: atkinson hyperlegible;
     background-color: #999;
+    margin:0;
 }
 #product{
     background-color: rgb(237, 40, 45);
@@ -16,4 +17,37 @@ span.product1{
 div.win{
     text-align: center;
     font-size: 60pt;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+a.nav{
+  font-size:15px;
+  color:rgb(255, 255, 255);
+  font-family: atkinson hyperlegible;
+  text-decoration: none;
+  padding: 10px;
+  margin: auto;
+  float: left;
+  display: block;
+  text-align: center;
+
+}
+a.nav:hover{
+  font-size:15px;
+  color:rgb(255, 0, 0);
+  font-family: atkinson hyperlegible;
+  text-decoration: none;
+  background: #ddd;
+}
+#active{
+  font-size:15px;
+  color:rgb(255, 0, 0);
+  font-family: atkinson hyperlegible;
+  text-decoration: none;
+
 }
