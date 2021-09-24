@@ -34,7 +34,7 @@ function clickListener(event){
 
     let addressValue = document.getElementById('address').value;
     if(addressValue == ""){
-        errorMessage += "<br>&nbsp&nbsp&middot; Address";
+        errorMessage += "<br>&nbsp&nbsp&middot;Address";
         error = 1}; 
         
     let cityValue = document.getElementById('city').value;
@@ -43,7 +43,7 @@ function clickListener(event){
         error = 1}; 
 
     let stateValue = document.getElementById('state').value;
-    if(stateValue == ""){
+    if(stateValue == "no"){
         errorMessage += "<br>&nbsp&nbsp&middot;State";
         error = 1}; 
 
@@ -63,15 +63,15 @@ function clickListener(event){
 submitButton.addEventListener('click',clickListener)
 fillButton = document.querySelector('#fill');
 function fillListener(event){
-    document.getElementById('fn').value = "John"
-    document.getElementById('ln').value = "Smith"
+    document.getElementById('fn').value = "Micah"
+    document.getElementById('ln').value = "Olson"
     document.getElementById('cc').value = "1231231231231230"
     document.getElementById('cvv').value = '123'
     document.getElementById('exp').value = '12/34'
     document.getElementById('address').value = '1234 Test Ln.'
-    document.getElementById('city').value = 'Cityland'
-    document.getElementById('state').value = 'Stateland'
-    document.getElementById('zip').value = '12345'
+    document.getElementById('city').value = 'Westerville'
+    document.getElementById('state').value = 'OH'
+    document.getElementById('zip').value = '43081'
 }
 fillButton.addEventListener('click', fillListener)
 const d = new Date()

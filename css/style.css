@@ -18,6 +18,11 @@ div.win{
     text-align: center;
     font-size: 60pt;
 }
+p.win{
+    text-align: center;
+    font-size: 80pt;
+    font-family: OCR A;
+}
 .navbar{
     overflow: hidden;
     background-color: #333;
