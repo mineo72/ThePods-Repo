@@ -5,9 +5,10 @@
     <body>
         <span id="date"></span>
         <fieldset id="product">
-
+            <img id="testing" src="/images/128.png">
+            <br><br><br>
+            <span class="product1">This is a placeholder product. If you're seeing this</span>
         </fieldset>
-        
         <fieldset>
             <legend>Payment Info</legend>
             <table>
@@ -28,12 +29,8 @@
                     <td><input type="text" id="cvv"></td>
                 </tr>
                 <tr>
-                    <td>Expiry Month</td>
-                    <td><input type="text" id="month"></td>
-                </tr>
-                <tr>
-                    <td>Expiry Year</td>
-                    <td><input type="text" id="year"></td>
+                    <td>Expiry</td>
+                    <td><input type="text" id="exp"></td>
                 </tr>
                 
             </table>
@@ -60,8 +57,8 @@
             </table>
         </fieldset>
         <input type="submit" id="button">
+        <input type="button" id="fill" value="FillTest">
         <p id="error"></p>
-        <p id="success"></p>
         <script src="/js/tr.js"></script>
     </body>
 </html>
