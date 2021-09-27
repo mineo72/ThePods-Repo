@@ -9,8 +9,7 @@ input{
     background-color: bisque;
     border-radius: 50px;
 }
-p{
-    border:solid 3px red;
+#error{
     background-color: beige;
     color: red;
     font-size: 20pt;
