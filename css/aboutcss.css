@@ -62,11 +62,10 @@ p{
 
 
 .column {
-  float: left;
+  display: table-cell;
+  margin: auto;
   width:25%;
-  margin-bottom: 16px;
   padding: 25px;
-  align-items: center;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
