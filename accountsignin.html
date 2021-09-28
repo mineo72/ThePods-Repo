@@ -1,7 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/accountcss.css">
-        <script src="js/accountjs.js"></script>
+        <script src="js/accountsigninjs.js"></script>
         <title>The Pods™</title>
     </head>
     <body>
@@ -27,6 +27,21 @@
         <!--Add a box here that rotates between different ads for The Pods-->
         <img src="pods ad">
         <h1 id="header">My Account</h1>
+        <h2 id="header">Sign into your account below.</h2>
+
+        <form action="/account.html">
+            <div class="container">
+                <hr>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="email" required><br><br>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                <hr>
+                <p>By creating an account you agree to our <a href="terms.html" target="_blank">Terms & Conditions</a>.</p>
+                <button type="submit" class="button">Sign In</button>
+            </div>
+        </form>
+
     </body>
     <!--Feet-->
 </html>
