@@ -36,6 +36,24 @@ label{
     text-align: center;
     text-decoration: none;
   }
+
+  /*Links*/
+  a.link{
+    font-size:11px;
+    color:rgb(197, 197, 197);
+    font-family: atkinson hyperlegible;
+    text-decoration: none;
+    text-align: center;
+  }
+  a.link:hover{
+    font-size:11px;
+    color:paleturquoise;
+    font-family: atkinson hyperlegible;
+    text-decoration: none;
+  }
+  #pointer {
+    cursor: pointer;
+  }
   
   /*Navigation*/
   .navbar{
