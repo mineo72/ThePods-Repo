@@ -3,26 +3,6 @@ body{
     background-color: #999;
     margin:0;
 }
-#product{
-    background-color: rgb(237, 40, 45);
-    width: 35%;
-}
-span.product1{
-     margin-left: 30px;
-}
-#testing{
-    clear: left;
-    float: left;
-}
-div.win{
-    text-align: center;
-    font-size: 60pt;
-}
-p.win{
-    text-align: center;
-    font-size: 80pt;
-    font-family: OCR A;
-}
 .navbar{
     overflow: hidden;
     background-color: #333;
@@ -54,5 +34,19 @@ a.nav:hover{
   color:rgb(255, 0, 0);
   font-family: atkinson hyperlegible;
   text-decoration: none;
-
 }
+
+#header {
+    text-align: center;
+    font-family: atkinson hyperlegible;
+}
+p{
+  margin: auto;
+  font-size: 11pt;
+  color:rgb(255, 255, 255);
+  font-family: atkinson hyperlegible;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
