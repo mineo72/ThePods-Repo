@@ -88,6 +88,17 @@ label{
     text-decoration: none;
   }
 
+  /*Account Details*/
+  .table{
+    margin: auto;
+    padding: 5%;
+    border: black 2px dashed;
+    width: 50%;
+  }
+  img.profileimg{
+    width: 25%;
+  }
+
   /*Sign in page, ignore section for main account unless needed*/
   .signin{
       text-align: center;
