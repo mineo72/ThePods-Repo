@@ -1,6 +1,7 @@
 body{
     font-family: atkinson hyperlegible;
     background-color: #999;
+<<<<<<< HEAD
     margin:0;
 }
 #product{
@@ -22,6 +23,40 @@ p.win{
     text-align: center;
     font-size: 80pt;
     font-family: OCR A;
+=======
+}
+#paragraph{
+    text-align: left;
+    font-size: 24pt;
+    color: white;
+}
+#paragraph2{
+    text-align: center;
+    font-size: 24pt;
+    color: white;
+}
+#paragraph3{
+    text-align: right;
+    font-size: 24pt;
+    color:white;
+}
+#image1{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    bottom: 140px;
+}
+#paragraph4{
+    font-size: 12pt;
+    color: black;
+    position: relative;
+    bottom: 150px; ;
+}
+#paragraph5{
+    font-size: 12pt;
+    position: relative;
+    bottom: 120pt;
+>>>>>>> 9f1b106556018138324186c1f3718efe3a1e56fb
 }
 .navbar{
     overflow: hidden;
@@ -40,13 +75,17 @@ a.nav{
   float: left;
   display: block;
   text-align: center;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9f1b106556018138324186c1f3718efe3a1e56fb
 }
 a.nav:hover{
   font-size:15px;
   color:rgb(255, 0, 0);
   font-family: atkinson hyperlegible;
   text-decoration: none;
+<<<<<<< HEAD
   background: #ddd;
 }
 #active{
@@ -56,3 +95,6 @@ a.nav:hover{
   text-decoration: none;
 
 }
+=======
+  background: #ddd;
+>>>>>>> 9f1b106556018138324186c1f3718efe3a1e56fb
