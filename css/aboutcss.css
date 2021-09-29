@@ -103,6 +103,11 @@ p{
   background-color: rgb(0, 0, 0);
 }
 
+img.logo{
+  width: 100px;
+  margin: auto;
+  display: block;
+}
 
 
 /*Extra, might be usable later*/
