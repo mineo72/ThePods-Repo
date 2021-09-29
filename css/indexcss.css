@@ -49,4 +49,14 @@ p{
   text-align: center;
   text-decoration: none;
 }
+div.win{
+  text-align: center;
+  font-size: 60pt;
+}
+p.win{
+  text-align: center;
+  font-size: 80pt;
+  font-family: OCR A;
+  color:#444;
+}
 
