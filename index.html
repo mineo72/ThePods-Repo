@@ -17,7 +17,7 @@
                         <a href="store.html" class="nav">Products</a>
                         <a href="about.html" class="nav">About</a>
                         <a href="account.html" class="nav">Account</a>
-                        <a href="accountsignin.html" class="nav">Sign In</a>
+                        <a href="accountsignin.html" class="nav" id="signin">Sign In</a>
                     </td>
                 </tr>
             </table>
@@ -25,10 +25,15 @@
         <p class="win">The Pods™</p>
         <!--This should be deleted before deployment-->
         <div class="win"><button onclick="etGoHome()">GoToTransaction(Temp)</button></div>
+        <button onclick="checkCookie()">Cookie</button>
         <script>
             function etGoHome(){
                 window.location.href = "transactionp1.html"
             }
+        </script>
+        <script type="module">
+            import { getCookie } from './js/accountjs.mjs'
+            import { checkCookie } from './js/accountjs.mjs'
         </script>
         <!--End of deletion-->
         <br><br><br><br><br>

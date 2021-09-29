@@ -1,7 +1,4 @@
-
-
-let submitButton = document.querySelector(`#submit`);
-
+import { setCookie } from './accountjs.mjs'
 function clickListener(event){
     //Create error message
     let errorMessage = "Please enter a valid:";
@@ -22,6 +19,7 @@ function clickListener(event){
     if(error == 1){
         document.getElementById(`error`).innerHTML=errorMessage;
     } else{
+        setCookie(email,emailValue,1);
         window.location.href = "account.html";
     } 
 
