@@ -22,7 +22,7 @@ function clickListener(event){
     if(error == 1){
         document.getElementById(`error`).innerHTML=errorMessage;
     } else{
-        window.location.href = "account.html";
+        window.location = "account.html";
     } 
 
 }
