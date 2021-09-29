@@ -1,4 +1,4 @@
-//ignore this javascript, it doesn't work quite yet.
+
 
 let submitButton = document.querySelector(`#submit`);
 

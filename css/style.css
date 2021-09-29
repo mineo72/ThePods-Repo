@@ -55,6 +55,9 @@ p.win{
     position: relative;
     bottom: 120pt;
 }
+
+
+/*Navigation*/
 .navbar{
     overflow: hidden;
     background-color: #333;
