@@ -29,13 +29,13 @@ function logIn(){
     let emailValue = document.getElementById('email').value;
     let pswValue = document.getElementById('psw').value;
     if (emailValue != "" && pswValue != ''){
-        document.cookie = "email=" + emailValue + ";"
+        document.cookie = "email = " + emailValue + ";"
         alert(getCookie(email))
     } else{
         alert("Fail")
     }
 }
-function getCookie(cname) {g
+function getCookie(cname) {
     let name = cname + "=";
     let decodedCookie = decodeURIComponent(document.cookie);
     let ca = decodedCookie.split(';');
