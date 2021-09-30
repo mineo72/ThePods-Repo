@@ -25,15 +25,44 @@
         <p class="win">The Pods™</p>
         <!--This should be deleted before deployment-->
         <div class="win"><button onclick="etGoHome()">GoToTransaction(Temp)</button></div>
-        <button onclick="checkCookie()">Cookie</button>
+        <button onclick="johnDoe()">Test 2</button>
+        <button onclick="realCheck()">Test 3</button>
+        <button onclick="deleteCookie()">Test 4</button>
         <script>
+            function johnDoe(){
+                document.cookie = "username=Jane Doe;"
+            }
+            function deleteCookie(){
+                document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/"
+            }
+            let test = "Test"
             function etGoHome(){
                 window.location.href = "transactionp1.html"
+            } 
+            function realCheck(){
+                lookFor = prompt("Check For")
+                if (getCookie(lookFor) != "") {
+                alert(getCookie(lookFor))
+                } else {
+                    alert("Cookie Not Found")
+                }
             }
-        </script>
-        <script type="module">
-            import { getCookie } from './js/accountjs.mjs'
-            import { checkCookie } from './js/accountjs.mjs'
+            function getCookie(cname) {
+                let name = cname + "=";
+                let decodedCookie = decodeURIComponent(document.cookie);
+                let ca = decodedCookie.split(';');
+                for(let i = 0; i <ca.length; i++) {
+                    let c = ca[i];
+                    while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                    }
+                    if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                    }
+                }
+                return "";
+            }
+
         </script>
         <!--End of deletion-->
         <br><br><br><br><br>
