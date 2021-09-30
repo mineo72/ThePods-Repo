@@ -64,7 +64,6 @@ p{
 /*About cards*/
 .column {
   display: table-cell;
-  margin: auto;
   width:25%;
   padding: 25px;
 }
