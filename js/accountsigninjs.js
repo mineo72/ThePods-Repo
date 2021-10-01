@@ -30,7 +30,7 @@ function logIn(){
     let pswValue = document.getElementById('psw').value;
     if (emailValue != "" && pswValue != ''){
         document.cookie = "email = " + emailValue + ";"
-        alert(getCookie(email))
+        window.location.href = "account.html"
     } else{
         alert("Fail")
     }
