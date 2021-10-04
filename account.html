@@ -2,31 +2,51 @@
     <head>
         <link rel="stylesheet" href="css/accountcss.css">
         <script src="js/accountjs.js"></script>
+        <script src="js/cookies.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+
         <title>The Pods™</title>
     </head>
-    <body>
+    <body onload="acntStart()">
         <script src="/js/script.js"></script>
         <!--Navigation-->
         <div class="navbar">
             <table>
                 <tr>
                     <td>
-                        <a href="index.html"><img src="logo goes here" width="25px"></a>
+                        <a href="index.html"><img src="images/headphones-edit-1.jpg" width="70px"></a>
                     </td>
                     <td>
                         <a href="index.html" class="nav">Home</a>
-                        <a href=#products class="nav">Products</a>
+                        <a href="store.html" class="nav">Products</a>
                         <a href="about.html" class="nav">About</a>
-                        <a href="accountsignin.html" class="nav" id="active">Account</a>
-                        <a href=#about class="nav">Search</a>
+                        <a href="account.html" class="nav" id="active">Account</a>
+                    </td>
+                    <td id="signin">
+                        <button onclick="goToSignIn()" class="acnt">Sign In</button>
+                    </td>
+                    <td id="signout">
+                        <button onclick="sOut()" class="acnt">Sign Out</button>
                     </td>
                 </tr>
             </table>
-        </div><br><br>
+        </div><br><br><br>
 
-        <!--Add a box here that rotates between different ads for The Pods-->
-        <img src="pods ad">
         <h1 id="header">My Account</h1>
+        <div>
+            <table class="table">
+                <tr>
+                    <td>
+                        <img src="images/placeholder-image.png" class="profileimg">
+                    </td>
+                    <td>Hello</td>
+                    <td>
+                        <div id="acntEmail"></div>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
     </body>
     <!--Feet-->
 </html>
