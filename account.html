@@ -2,9 +2,12 @@
     <head>
         <link rel="stylesheet" href="css/accountcss.css">
         <script src="js/accountjs.js"></script>
+        <script src="js/cookies.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+
         <title>The Pods™</title>
     </head>
-    <body>
+    <body onload="acntStart()">
         <script src="/js/script.js"></script>
         <!--Navigation-->
         <div class="navbar">
@@ -18,7 +21,12 @@
                         <a href="store.html" class="nav">Products</a>
                         <a href="about.html" class="nav">About</a>
                         <a href="account.html" class="nav" id="active">Account</a>
-                        <a href="accountsignin.html" class="nav">Sign In</a>
+                    </td>
+                    <td id="signin">
+                        <button onclick="goToSignIn()" class="acnt">Sign In</button>
+                    </td>
+                    <td id="signout">
+                        <button onclick="sOut()" class="acnt">Sign Out</button>
                     </td>
                 </tr>
             </table>
@@ -31,10 +39,9 @@
                     <td>
                         <img src="images/placeholder-image.png" class="profileimg">
                     </td>
+                    <td>Hello</td>
                     <td>
-                        Name <br>
-                        Status <br>
-                        Test <br>
+                        <div id="acntEmail"></div>
                     </td>
                 </tr>
             </table>

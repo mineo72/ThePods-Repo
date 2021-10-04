@@ -8,6 +8,15 @@ function onStart(){
     }
 }
 
+function acntStart() {
+    if (readCookie("email") == null) {
+        window.location.href = "accountsignin.html"
+    } else{
+        document.getElementById("acntEmail").innerHTML = readCookie("email")
+        onStart()
+    }
+}
+
 function johnDoe(){
     document.cookie = "username=Jane Doe;"
 }
@@ -25,6 +34,7 @@ function etGoHome(){
 function goToSignIn(){
     window.location.href = "accountsignin.html"
 }
+
 
 function realCheck(){
     lookFor = prompt("Check For")
