@@ -74,6 +74,14 @@ ul.breadcrumb li a:hover {
   text-decoration: underline;
 }
 
+#productimage{
+  width: 75%;
+  padding: 15%;
+}
+#producttext{
+  border: transparent;
+  vertical-align: top;
+}
 
 
 /*Text options*/
