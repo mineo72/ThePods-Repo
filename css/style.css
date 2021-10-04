@@ -62,10 +62,29 @@ a.nav:hover{
 #image2{
     height: 300px;
     width: 300px;
-    position: relative;
-    bottom: 160px;
+    position: absolute;
+    right: 45%;
+    top: 30%;
 }
 #paragraph8{
+    position: absolute;
+    right: 50%;
+    top: 60%;
+}
+#image3{
+    height: 300px;
+    width: 300px;
     position: relative;
-    bottom: 170px;
+    bottom: 130pt;
+}
+#p3{
+    position: relative;
+    bottom: 170;
+}
+#img4{
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        right: 60pt;
+        bottom: 260;
 }
