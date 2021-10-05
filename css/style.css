@@ -92,13 +92,82 @@ a.nav:hover{
 #image2{
     height: 300px;
     width: 300px;
-    position: relative;
-    bottom: 160px;
+    position: absolute;
+    right: 45%;
+    top: 30%;
 }
 #paragraph8{
-    position: relative;
-    bottom: 170px;
+    position: absolute;
+    right: 50%;
+    top: 60%;
 }
+#image3{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    bottom: 130pt;
+}
+#p3{
+    position: relative;
+    bottom: 170;
+}
+#img4{
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        right: 60pt;
+        bottom: 260;
+}
+#img5{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 45%;
+    top: 67%;
+}
+#p8{
+    position: absolute;
+    right: 49%;
+    top: 97%;
+}
+#img6{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top:-18%;
+}
+#p9{
+   position: relative; 
+   top: -19%;
+}
+#img7{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 45%;
+    top: 103%;
+}
+#p10{
+    position: relative;
+    right: -82%;
+    top: -82%;
+}
+#img8{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    right: -80%;
+    top: -82%;
+}
+#p11{
+    position: relative;
+    right: -80%;
+    top: -82%;   
+}
+#p12{
+    position: relative;
+    right: -39%;
+    top: -65%;
 button.acnt{
     border: black solid 3px;
     background-color: aqua;
