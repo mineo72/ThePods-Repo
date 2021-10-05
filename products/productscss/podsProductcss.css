@@ -97,8 +97,8 @@ ul.breadcrumb li a:hover {
   background-color: #2980B9;
 }
 .dropdown {
-  position: relative;
-  display: inline-block;
+  float: left;
+
 }
 .dropdown-content {
   display: none;
