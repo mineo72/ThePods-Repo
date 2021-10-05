@@ -1,0 +1,21 @@
+fieldset{
+    width: auto;
+}
+table{
+    background-color: #aaa;
+}
+input{
+    border: solid blue 3px;
+    background-color: bisque;
+    border-radius: 50px;
+}
+#error{
+    background-color: beige;
+    color: red;
+    font-size: 20pt;
+}
+select{
+    border: solid blue 3px;
+    background-color: bisque;
+    border-radius: 50px;
+}

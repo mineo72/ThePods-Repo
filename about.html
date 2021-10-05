@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>About</title>
+        <link rel="stylesheet" href="css/aboutcss.css">
+        <script src="js/script.js"></script>
+        <script src="js/cookies.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body onload="onStart()">
+        <!--Navigation-->
+        <div class="navbar">
+            <table>
+                <tr>
+                    <td>
+                        <a href="index.html"><img src="images/headphones-edit-1.jpg" width="70px"></a>
+                    </td>
+                    <td>
+                        <a href="index.html" class="nav">Home</a>
+                        <a href="store.html" class="nav">Products</a>
+                        <a href="about.html" class="nav" id="active">About</a>
+                        <a href="account.html" class="nav">Account</a>
+                    </td>
+                    <td id="signin">
+                        <button onclick="goToSignIn()" class="acnt">Sign In</button>
+                    </td>
+                    <td id="signout">
+                        <button onclick="sOut()" class="acnt">Sign Out</button>
+                    </td>
+                </tr>
+            </table>
+        </div><br><br><br>
+
+        <h1 id="header">About The Pods™</h1>
+        <img src="images/headphones-edit-1.jpg" class="logo">
+        <p>The Pods™ is a large company based in the United States with subcompanies scattered around the globe. While these smaller companies might not admit it, they all depend on our products. We provide far better versions of majority of these projects for modest prices right from the source instead of depending on these various middle men.</p>
+        <p>Note: The Pods™ does not take responsibility of damaged or lost products once they have left our department. Please contact your local mail service for information on these products.</p>
+        <img src="images/headphones-edit-1.jpg" class="logo">
+
+        <h2 id="header">Meet the Team</h2>
+
+        <div class="wrappertest">
+            <div class="column">
+                <div class="card">
+                    <img src="images/placeholder-image.png" alt="Carter" style="width:100%">
+                        <div class="container">
+                            <h2 id="header">Carter Ebare</h2>
+                            <p class="title">Product Owner</p>
+                            <p>example@example.com</p>
+                            <p><button class="button">Contact</button></p>
+                        </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="images/aboutProfilePicture2.jpg" alt="Morgan" style="width:100%">
+                        <div class="container">
+                            <h2 id="header">Morgan Harper</h2>
+                            <p class="title">Scrum Master</p>
+                            <p>23harperm@mydacc.com</p>
+                            <p><button class="button">Contact</button></p>
+                        </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="images/micah.jpg" alt="Carter" style="width:80%">
+                        <div class="container">
+                            <h2 id="header">Micah Olson</h2>
+                            <p class="title">Programmer</p>
+                            <p>23OlsonM@mydacc.org</p>
+                            <p><button class="button">Contact</button></p>
+                        </div>
+                </div>
+            </div>        
+        </div>
+    </body>
+</html>

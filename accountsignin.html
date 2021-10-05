@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/accountcss.css">
+        <script src="/js/cookies.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <title>The Pods™</title>
+    </head>
+    <body onload="onStart()">
+        <script src="/js/script.js"></script>
+        <!--Navigation-->
+        <div class="navbar">
+            <table>
+                <tr>
+                    <td>
+                        <a href="index.html"><img src="images/headphones-edit-1.jpg" width="70px"></a>
+                    </td>
+                    <td>
+                        <a href="index.html" class="nav">Home</a>
+                        <a href="store.html" class="nav">Products</a>
+                        <a href="about.html" class="nav">About</a>
+                        <a href="account.html" class="nav">Account</a>
+                    </td>
+                    <td id="signin">
+                        <button onclick="goToSignIn()" class="acnt">Sign In</button>
+                    </td>
+                    <td id="signout">
+                        <button onclick="sOut()" class="acnt">Sign Out</button>
+                    </td>
+                </tr>
+            </table>
+        </div><br><br><br>
+
+        <h1 id="header">My Account</h1>
+        <h2 id="header">Sign into your account below.</h2>
+
+        <div>
+            <table id="signincss">
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" id="email"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="text" id="psw"></td>
+                </tr>
+                <tr>
+                    <td><button type="submit" id="submit">Submit</button></td>
+                </tr>
+            </table>
+            <p id="error"></p>
+            <script src="/js/accountsigninjs.js"></script>            
+        </div>
+        <p>Don't have an account? <a href="accountcreator.html" class="link">Create an Account here.</a></p>
+
+    </body>
+    <!--Feet-->
+</html>
+<!--©2021 THE PODS-->
