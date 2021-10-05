@@ -1,9 +1,10 @@
 <html>
     <head>
+        <link rel="stylesheet" href="/css/style.css">
         <link rel="stylesheet" href="css/indexcss.css">
         <title>Terms and Conditions</title>
     </head>
-    <body>
+    <body onload="onStart()">
         <script src="/js/script.js"></script>
         <!--Navigation-->
         <div class="navbar">
@@ -17,14 +18,20 @@
                         <a href="store.html" class="nav">Products</a>
                         <a href="about.html" class="nav">About</a>
                         <a href="account.html" class="nav">Account</a>
-                        <a href="accountsignin.html" class="nav">Sign In</a>
+                        <td id="signin">
+                            <button onclick="goToSignIn()" class="acnt">Sign In</button>
+                        </td>
+                        <td id="signout">
+                            <button onclick="sOut()" class="acnt">Sign Out</button>
+                        </td>
                     </td>
                 </tr>
             </table>
-        </div><br><br>
+        </div><br><br><br>
 
         <h1 id="header">Terms and Conditions</h1>
         <p>We own your soul now. Do you really need it that badly?</p>
+        <script src="/js/cookies.js"></script>
     </body>
     <!--Feet-->
 </html>
