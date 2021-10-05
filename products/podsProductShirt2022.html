@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="productscss/podsProductcss.css">
+        <title>The Pods™</title>
+    </head>
+    <body onload="onStart()">
+        <!--Navigation-->
+        <div class="navbar">
+            <table>
+                <tr>
+                    <td>
+                        <a href="../index.html"><img src="../images/headphones-edit-1.jpg" width="70px"></a>
+                    </td>
+                    <td>
+                        <a href="../index.html" class="nav">Home</a>
+                        <a href="../store.html" class="nav" id="active">Products</a>
+                        <a href="../about.html" class="nav">About</a>
+                        <a href="../account.html" class="nav">Account</a>
+                        <td id="signin">
+                            <button onclick="goToSignIn()" class="acnt">Sign In</button>
+                        </td>
+                        <td id="signout">
+                            <button onclick="sOut()" class="acnt">Sign Out</button>
+                        </td>
+                    </td>
+                </tr>
+            </table>
+        </div><br><br><br>
+
+        <ul class="breadcrumb">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../store.html">Products</a></li>
+            <li>ThePods 2022 Football Season Special T-Shirt</li>
+          </ul>
+
+        <h1 id="header">ThePods 2022 Football Season Special T-Shirt</h1>
+        <table>
+            <tr>
+                <td><img src="../images/Football.PNG" id="productimage"></td>
+
+                <td id="producttext"><br><br><br>Football season is always just around the corner! Prepare for this upcoming season with this quality t-shirt while supplies lasts!
+                    <br><br>
+
+                    <!--Color-->
+                        <br><br>
+                        <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">Color</button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#red">Red</a>
+                                <a href="#grey">Grey</a>
+                                <a href="#black">Black</a>
+                            </div>
+                        </div><br>
+                    <!--Size-->
+                        <div class="dropdown2">
+                            <button onclick="myFunction2()" class="dropbtn2">Size</button>
+                            <div id="myDropdown2" class="dropdown-content2">
+                                <a href="#small">Small</a>
+                                <a href="#medium">Medium</a>
+                                <a href="#large">Large</a>
+                                <a href="#xlarge">X-Large</a>
+                            </div>
+                        </div> 
+                    <!--Proceed to checkout--><br><br>
+                        <button class="checkoutbtn"><a href="../transactionp1.html" class="checkoutbtn">Check Out</a></button>
+                </td>
+                <!--Color Script. Remove if only one color-->
+                <script>
+                    function myFunction() {
+                      document.getElementById("myDropdown").classList.toggle("show");
+                    }
+                    window.onclick = function(event) {
+                      if (!event.target.matches('.dropbtn')) {
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                          var openDropdown = dropdowns[i];
+                          if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                          }
+                        }
+                      }
+                    }
+                </script>
+                <!--Size Script-->
+                <script>
+                    function myFunction2() {
+                        document.getElementById("myDropdown2").classList.toggle("show2");
+                    }
+                    window.onclick = function(event) {
+                        if (!event.target.matches('.dropbtn2')) {
+                        var dropdowns2 = document.getElementsByClassName("dropdown-content2");
+                        var b;
+                        for (b = 0; b < dropdowns2.length; b++) {
+                            var openDropdown2 = dropdowns2[b];
+                            if (openDropdown2.classList.contains('show2')) {
+                            openDropdown2.classList.remove('show2');
+                            }
+                        }
+                        }
+                    }
+                </script>
+            </tr>
+        </table>
+        <script src="/js/cookies.js"></script>
+    </body>
+    <!--Feet-->
+</html>
+<!--©2021 THE PODS-->
