@@ -99,3 +99,8 @@ a.nav:hover{
     position: relative;
     bottom: 170px;
 }
+button.acnt{
+    border: black solid 3px;
+    background-color: aqua;
+    font-family: atkinson hyperlegible;
+}

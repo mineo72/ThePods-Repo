@@ -3,8 +3,10 @@
         <title>About</title>
         <link rel="stylesheet" href="css/aboutcss.css">
         <script src="js/script.js"></script>
+        <script src="js/cookies.js"></script>
+        <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
+    <body onload="onStart()">
         <!--Navigation-->
         <div class="navbar">
             <table>
@@ -17,7 +19,12 @@
                         <a href="store.html" class="nav">Products</a>
                         <a href="about.html" class="nav" id="active">About</a>
                         <a href="account.html" class="nav">Account</a>
-                        <a href="accountsignin.html" class="nav">Sign In</a>
+                    </td>
+                    <td id="signin">
+                        <button onclick="goToSignIn()" class="acnt">Sign In</button>
+                    </td>
+                    <td id="signout">
+                        <button onclick="sOut()" class="acnt">Sign Out</button>
                     </td>
                 </tr>
             </table>
@@ -66,9 +73,5 @@
                 </div>
             </div>        
         </div>
-
-
-        
-        
     </body>
 </html>

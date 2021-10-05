@@ -1,11 +1,11 @@
 <html>
     <head>
         <title>Store</title>
-
         <link rel="stylesheet" href="css/style.css">
         <link href="images">
+        <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
+    <body onload="onStart()">
         <div class="navbar">
             <table>
                 <tr>
@@ -17,7 +17,12 @@
                         <a href="store.html" class="nav" id="active">Products</a>
                         <a href="about.html" class="nav">About</a>
                         <a href="account.html" class="nav">Account</a>
-                        <a href="accountsignin.html" class="nav">Sign In</a>
+                    </td>
+                    <td id="signin">
+                        <button onclick="goToSignIn()" class="acnt">Sign In</button>
+                    </td>
+                    <td id="signout">
+                        <button onclick="sOut()" class="acnt">Sign Out</button>
                     </td>
                 </tr>
             </table>            
@@ -33,5 +38,6 @@
        <img src="images/Capture.PNG" id="image2">
        <p id="paragraph8">ThePods Gen 6 T-shirt<br>price 63$</p>
        <img src="images/Capture.PNG"
+       <script src="./js/cookies.js"></script>
     </body>
 </html>

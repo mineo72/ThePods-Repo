@@ -1,9 +1,11 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/indexcss.css">
+        <link rel="stylesheet" href="css/style.css">
         <title>The Pods™</title>
+        <script src="js/cookies.js"></script>
     </head>
-    <body>
+    <body onload="onStart()">
         <script src="/js/script.js"></script>
         <!--Navigation-->
         <div class="navbar">
@@ -17,7 +19,12 @@
                         <a href="store.html" class="nav">Products</a>
                         <a href="about.html" class="nav">About</a>
                         <a href="account.html" class="nav">Account</a>
-                        <a href="accountsignin.html" class="nav">Sign In</a>
+                    </td>
+                    <td id="signin">
+                        <button onclick="goToSignIn()" class="acnt">Sign In</button>
+                    </td>
+                    <td id="signout">
+                        <button onclick="sOut()" class="acnt">Sign Out</button>
                     </td>
                 </tr>
             </table>
@@ -51,11 +58,6 @@
 
         <!--This should be deleted before deployment--><br><br><br>
         <div class="win"><button onclick="etGoHome()">GoToTransaction(Temp)</button></div>
-        <script>
-            function etGoHome(){
-                window.location.href = "transactionp1.html"
-            }
-        </script>
         <!--End of deletion-->
         <br><br><br><br><br>
     </body>
