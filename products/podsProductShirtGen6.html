@@ -34,22 +34,68 @@
                 <td><img src="../images/Screenshot 2021-09-24 095211.png" id="productimage"></td>
 
                 <td id="producttext"><br><br><br>This EarBud Iconic T-Shirt is made of the highest quality fabric and is locally sourced. This item is well worth the money and is only avalible while our stock lasts, so get it while it's here!
-                <br><br>Item stuff. This should be to the right of the image, mess around with stuff and see what works.</td>
-                <br>
-                <td><br><br><br><br><br><br><br><br>
-                    <div class="dropdown">
-                        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-                        <div id="myDropdown" class="dropdown-content">
-                            <a href="#home">Home</a>
-                            <a href="#about">About</a>
-                            <a href="#contact">Contact</a>
-                        </div>
-                    </div>                    
-                </td>
+                    <br><br>Item stuff. This should be to the right of the image, mess around with stuff and see what works.
 
+                    <!--Color-->
+                        <br><br>
+                        <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">Color</button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#red">Red</a>
+                                <a href="#blue">Blue</a>
+                                <a href="#black">Black</a>
+                                <a href="#yellow">Yellow</a>
+                            </div>
+                        </div><br>
+                    <!--Size-->
+                        <div class="dropdown2">
+                            <button onclick="myFunction2()" class="dropbtn2">Size</button>
+                            <div id="myDropdown2" class="dropdown-content2">
+                                <a href="#small">Small</a>
+                                <a href="#medium">Medium</a>
+                                <a href="#large">Large</a>
+                                <a href="#xlarge">X-Large</a>
+                            </div>
+                        </div> 
+                    <!--Proceed to checkout-->
+                </td>
+                <!--Color Script-->
+                <script>
+                    function myFunction() {
+                      document.getElementById("myDropdown").classList.toggle("show");
+                    }
+                    window.onclick = function(event) {
+                      if (!event.target.matches('.dropbtn')) {
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) {
+                          var openDropdown = dropdowns[i];
+                          if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                          }
+                        }
+                      }
+                    }
+                </script>
+                <!--Size Script-->
+                <script>
+                    function myFunction2() {
+                        document.getElementById("myDropdown2").classList.toggle("show2");
+                    }
+                    window.onclick = function(event) {
+                        if (!event.target.matches('.dropbtn2')) {
+                        var dropdowns2 = document.getElementsByClassName("dropdown-content2");
+                        var b;
+                        for (b = 0; b < dropdowns2.length; b++) {
+                            var openDropdown2 = dropdowns2[b];
+                            if (openDropdown2.classList.contains('show2')) {
+                            openDropdown2.classList.remove('show2');
+                            }
+                        }
+                        }
+                    }
+                </script>
             </tr>
-            <!--Add a drop-down menu for different color and size options, should just take a quick search-->
-            <!--Add a button to proceed to checkout-->
         </table>
 
     </body>
