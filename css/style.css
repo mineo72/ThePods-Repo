@@ -100,3 +100,42 @@ a.nav:hover{
     right: 49%;
     top: 97%;
 }
+#img6{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top:-18%;
+}
+#p9{
+   position: relative; 
+   top: -19%;
+}
+#img7{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 45%;
+    top: 103%;
+}
+#p10{
+    position: relative;
+    right: -82%;
+    top: -82%;
+}
+#img8{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    right: -80%;
+    top: -82%;
+}
+#p11{
+    position: relative;
+    right: -80%;
+    top: -82%;   
+}
+#p12{
+    position: relative;
+    right: -39%;
+    top: -65%;
+}
