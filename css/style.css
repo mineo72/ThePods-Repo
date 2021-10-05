@@ -88,3 +88,15 @@ a.nav:hover{
         right: 60pt;
         bottom: 260;
 }
+#img5{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 45%;
+    top: 67%;
+}
+#p8{
+    position: absolute;
+    right: 49%;
+    top: 97%;
+}
