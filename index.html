@@ -30,7 +30,33 @@
             </table>
         </div><br><br><br>
         <p class="win">The Pods™</p>
-        <!--This should be deleted before deployment-->
+        <p class="subtitle">Welcome to the future.</p><br>
+
+        <!--Ad slideshow/rotation-->
+            <div class="test" style="max-width:900px">
+                <a href="products/podsProductTemplate.html"><img class="podsAd" src="images/test-podsAd.png" style="width:100%"></a>
+                <a href="products/podsProductShirtGen6.html"><img class="podsAd" src="images/test-podsAd2.png" style="width:100%"></a>
+                <a href="products/podsProductTemplate.html"><img class="podsAd" src="images/test-podsAd3.png" style="width:100%"></a>
+            </div>
+            <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("podsAd");
+                for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 5000); // Change image every 5 seconds
+            }
+            </script>
+        <!--End of ad slideshow-->
+
+        <!--This should be deleted before deployment--><br><br><br>
         <div class="win"><button onclick="etGoHome()">GoToTransaction(Temp)</button></div>
         <!--End of deletion-->
         <br><br><br><br><br>

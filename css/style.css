@@ -89,6 +89,16 @@ a.nav:hover{
   font-family: atkinson hyperlegible;
   text-decoration: none;
 }
+#image2{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    bottom: 160px;
+}
+#paragraph8{
+    position: relative;
+    bottom: 170px;
+}
 button.acnt{
     border: black solid 3px;
     background-color: aqua;
