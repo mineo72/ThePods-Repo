@@ -1,10 +1,9 @@
 <html>
     <head>
-        <link rel="stylesheet" href="/css/style.css">
         <link rel="stylesheet" href="productscss/podsProductcss.css">
         <title>The Pods™</title>
     </head>
-    <body onload="onStart()">
+    <body>
         <!--Navigation-->
         <div class="navbar">
             <table>
@@ -17,12 +16,7 @@
                         <a href="../store.html" class="nav" id="active">Products</a>
                         <a href="../about.html" class="nav">About</a>
                         <a href="../account.html" class="nav">Account</a>
-                        <td id="signin">
-                            <button onclick="goToSignIn()" class="acnt">Sign In</button>
-                        </td>
-                        <td id="signout">
-                            <button onclick="sOut()" class="acnt">Sign Out</button>
-                        </td>
+                        <a href="../accountsignin.html" class="nav">Sign In</a>
                     </td>
                 </tr>
             </table>
@@ -31,15 +25,15 @@
         <ul class="breadcrumb">
             <li><a href="../index.html">Home</a></li>
             <li><a href="../store.html">Products</a></li>
-            <li>Product Name</li>
+            <li>EarBud Iconic T-Shirt</li>
           </ul>
 
-        <h1 id="header">Product Name</h1>
+        <h1 id="header">EarBud Iconic T-Shirt</h1>
         <table>
             <tr>
                 <td><img src="../images/Screenshot 2021-09-24 095211.png" id="productimage"></td>
 
-                <td id="producttext"><br><br><br>Item stuff. This should be to the right of the image, mess around with stuff and see what works.
+                <td id="producttext"><br><br><br>This EarBud Iconic T-Shirt is made of the highest quality fabric and is locally sourced. This item is well worth the money and is only avalible while our stock lasts, so get it while it's here!
                     <br><br>
 
                     <!--Color-->
@@ -47,7 +41,10 @@
                         <div class="dropdown">
                             <button onclick="myFunction()" class="dropbtn">Color</button>
                             <div id="myDropdown" class="dropdown-content">
-                                <a href="#color">Color 1</a>
+                                <a href="#red">Red</a>
+                                <a href="#blue">Blue</a>
+                                <a href="#black">Black</a>
+                                <a href="#yellow">Yellow</a>
                             </div>
                         </div><br>
                     <!--Size-->
@@ -63,7 +60,7 @@
                     <!--Proceed to checkout--><br><br>
                         <button class="checkoutbtn"><a href="../transactionp1.html" class="checkoutbtn">Check Out</a></button>
                 </td>
-                <!--Color Script. Remove if only one color-->
+                <!--Color Script-->
                 <script>
                     function myFunction() {
                       document.getElementById("myDropdown").classList.toggle("show");
@@ -101,7 +98,7 @@
                 </script>
             </tr>
         </table>
-        <script src="/js/cookies.js"></script>
+
     </body>
     <!--Feet-->
 </html>
