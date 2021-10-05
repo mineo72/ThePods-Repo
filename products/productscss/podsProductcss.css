@@ -93,6 +93,7 @@ ul.breadcrumb li a:hover {
   border: none;
   cursor: pointer;
   border-radius: 15%;
+  width: 150px;
 }
 .dropbtn:hover, .dropbtn:focus {
   background-color: #da0000;
@@ -123,7 +124,6 @@ ul.breadcrumb li a:hover {
   display: block;
 }
 
-
 .dropbtn2 {
   background-color: #ff0000;
   color: white;
@@ -132,6 +132,7 @@ ul.breadcrumb li a:hover {
   border: none;
   cursor: pointer;
   border-radius: 15%;
+  width: 150px;
 }
 .dropbtn2:hover, .dropbtn2:focus {
   background-color: #da0000;
@@ -162,6 +163,24 @@ ul.breadcrumb li a:hover {
   display: block;
 }
 
+/*Chekout*/
+.checkoutbtn {
+  background-color: #ff0000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15%;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: text-bottom;
+  width: 150px;
+}
+.checkoutbtn:hover {
+  background-color: #da0000;
+  border: none;
+}
 
 /*Text options*/
 .subtitle{
