@@ -57,6 +57,11 @@ p.win{
 }
 
 /*Product Cards*/
+#testcard{
+    padding: 50px;
+    margin: 50px;
+    display: block;
+}
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
@@ -201,7 +206,7 @@ a.nav:hover{
 }
 button.acnt{
     border: black solid 3px;
-    background-color: aqua;
+    background-color: rgb(255, 55, 55);
     font-family: atkinson hyperlegible;
 }
 #productTable{
