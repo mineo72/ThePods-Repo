@@ -32,7 +32,7 @@ function etGoHome(){
     window.location.href = "transactionp1.html"
 } 
 function goToSignIn(){
-    window.location.href = "accountsignin.html"
+    window.location.href = "../accountsignin.html"
 }
 
 
