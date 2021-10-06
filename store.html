@@ -1,25 +1,34 @@
 <html>
     <head>
         <title>Store</title>
-        <h1><center>In Stock Today</center></h1>
         <link rel="stylesheet" href="css/style.css">
         <link href="images">
+        <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
-        <table>
-            <tr>
-                <td>
-                    <a href="index.html"><img src="logo goes here" width="25px"></a>
-                </td>
-                <td>
-                    <a href="index.html" class="nav">Home</a>
-                    <a href=#products class="nav">Products</a>
-                    <a href="about.html" class="nav" id="active">About</a>
-                    <a href=#contact class="nav">Contact</a>
-                    <a href=#about class="nav">Search</a>
-                </td>
-            </tr>
-        </table>
+    <body onload="onStart()">
+        <div class="navbar">
+            <table>
+                <tr>
+                    <td>
+                        <a href="index.html"><img src="images/headphones-edit-1.jpg" width="70px"></a>
+                    </td>
+                    <td>
+                        <a href="index.html" class="nav">Home</a>
+                        <a href="store.html" class="nav" id="active">Products</a>
+                        <a href="about.html" class="nav">About</a>
+                        <a href="account.html" class="nav">Account</a>
+                    </td>
+                    <td id="signin">
+                        <button onclick="goToSignIn()" class="acnt">Sign In</button>
+                    </td>
+                    <td id="signout">
+                        <button onclick="sOut()" class="acnt">Sign Out</button>
+                    </td>
+                </tr>
+            </table>            
+        </div><br><br><br>
+
+        <h1><center>In Stock Today</center></h1>
        <p id="paragraph">T-Shirts</p>
        <p id="paragraph2">Hoodies</p>
        <p id="paragraph3">Trousers</p>
@@ -40,5 +49,8 @@
        <img src="images/trousers.PNG" id="img8">
        <p id="p11">ThePods first exlusive joggers<br> price 80$</p>
        <p id="p12">ThePods stay safe hoodie out now!!! Limited time only<br> price 350$</p>
+       <p id="paragraph8">ThePods Gen 6 T-shirt<br>price 63$</p>
+       <img src="images/Capture.PNG">
+       <script src="/js/cookies.js"></script>
     </body>
 </html>
